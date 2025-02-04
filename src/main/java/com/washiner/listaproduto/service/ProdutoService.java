@@ -2,9 +2,11 @@ package com.washiner.listaproduto.service;
 
 import com.washiner.listaproduto.model.Produto;
 import com.washiner.listaproduto.repository.ProdutoRepository;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 
+@Service
 public class ProdutoService {
                    //do tipo             //atributo
     private final ProdutoRepository produtoRepository; //-> Come se lê essa linha? -> "Estou declarando um atributo chamado produtoRepository,

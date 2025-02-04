@@ -9,7 +9,9 @@ Este é um projeto simples de CRUD (Create, Read, Update, Delete) para uma lista
 - Docker (para banco de dados)
 - Postman (para testes)
 
-## 📂 Step001
-# - criei o banco no postgres
-# - no aplication_properties configurar a conexão com banco de dados
-# - criei o model e todas suas configuraçoes sem lombok
+## 📂 Step002
+# - criei a pasta repository
+# - criei a interface repository
+O que é o Repository? O Repository é a interface que o Spring Data JPA usa para interagir com o banco de dados. Não precisamos escrever SQL,
+apenas utilizamos os métodos prontos do Spring.
+

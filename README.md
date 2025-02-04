@@ -9,7 +9,7 @@ Este é um projeto simples de CRUD (Create, Read, Update, Delete) para uma lista
 - Docker (para banco de dados)
 - Postman (para testes)
 
-## 📂 Step002
+## 📂 Step003
 # - criei a pasta service
 # - criei a classe service
 O que é o Service? O Service contém a lógica de negócio. Ele vai chamar o Repository e processar as informações antes de passar para

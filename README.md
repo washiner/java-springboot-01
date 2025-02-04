@@ -10,8 +10,10 @@ Este é um projeto simples de CRUD (Create, Read, Update, Delete) para uma lista
 - Postman (para testes)
 
 ## 📂 Step002
-# - criei a pasta repository
-# - criei a interface repository
-O que é o Repository? O Repository é a interface que o Spring Data JPA usa para interagir com o banco de dados. Não precisamos escrever SQL,
-apenas utilizamos os métodos prontos do Spring.
-
+# - criei a pasta service
+# - criei a classe service
+O que é o Service? O Service contém a lógica de negócio. Ele vai chamar o Repository e processar as informações antes de passar para
+o Controller.
+# - criação da classe ProdutoService
+Irá gerenciar as operações de CRUD (Create, Read, Update, Delete).
+# - Tem explicação linha a linha em cada classe para fácil entendimento

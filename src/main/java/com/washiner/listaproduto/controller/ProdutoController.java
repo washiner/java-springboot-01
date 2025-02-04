@@ -20,8 +20,19 @@ public class ProdutoController {
     public List<Produto> getAllProdutos(){
         return produtoService.getAllProdutos();
     }
+
     @PostMapping
     public Produto saveProduto(@RequestBody Produto produto){
         return produtoService.saveProduto(produto);
+    }
+
+    @PutMapping("/{id}")
+    public Produto updateProduto(@PathVariable Long id, @RequestBody Produto produto){
+        return produtoService.updateProduto(id, produto);
+    }
+
+    @DeleteMapping("/{id}")
+    public String deleteProduto(@PathVariable Long id){
+        return produtoService.deletarProduto(id);
     }
 }

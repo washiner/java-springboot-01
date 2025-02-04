@@ -9,4 +9,7 @@ Este é um projeto simples de CRUD (Create, Read, Update, Delete) para uma lista
 - Docker (para banco de dados)
 - Postman (para testes)
 
-## 📂 Estrutura do projeto
+## 📂 Step001
+# - criei o banco no postgres
+# - no aplication_properties configurar a conexão com banco de dados
+# - criei o model e todas suas configuraçoes sem lombok
